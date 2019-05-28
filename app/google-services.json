@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "189720699491",
+    "firebase_url": "https://login-acdd3.firebaseio.com",
+    "project_id": "login-acdd3",
+    "storage_bucket": "login-acdd3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:189720699491:android:d61f30690aa04062",
+        "android_client_info": {
+          "package_name": "com.example.mapbank.codemen"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "189720699491-hhb7uvlpsc1gtgg3k1g35gl008lv7gbb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.mapbank.codemen",
+            "certificate_hash": "15edbe18556a8241b33614ccc8dab9f9ded1c7b7"
+          }
+        },
+        {
+          "client_id": "189720699491-l0q4ejov08p1mvl2v6r92b560rptbm49.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA8svj3ZCiaZOLJSQWOnrqXoN1KobBUA_k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "189720699491-l0q4ejov08p1mvl2v6r92b560rptbm49.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
