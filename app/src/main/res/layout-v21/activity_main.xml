@@ -54,8 +54,8 @@
                         android:src="@drawable/mailbox"
                         android:id="@+id/corresponsal"
                         android:layout_gravity="center_horizontal"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"/>
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"/>
 
                 <TextView android:layout_width="wrap_content"
                           android:text="Corresponsal"
@@ -87,14 +87,15 @@
                     android:layout_height="wrap_content">
 
                 <ImageView
-                         android:id="@+id/store"
+
                         android:src="@drawable/store"
+                        android:id="@+id/store"
                         android:layout_gravity="center_horizontal"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"/>
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"/>
 
                 <TextView android:layout_width="wrap_content"
-                          android:text="Oficinas"
+                          android:text="Cajeros"
                           android:textAlignment="center"
                           android:textColor="@color/black"
                           android:textSize="18sp"
@@ -125,9 +126,10 @@
                 <ImageView
 
                         android:src="@drawable/warehouse"
+                        android:id="@+id/oficinas"
                         android:layout_gravity="center_horizontal"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"/>
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"/>
 
                 <TextView android:layout_width="wrap_content"
                           android:text="Oficinas"
@@ -162,47 +164,11 @@
 
                         android:src="@drawable/register"
                         android:layout_gravity="center_horizontal"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"/>
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"/>
 
                 <TextView android:layout_width="wrap_content"
-                          android:text="Oficinas"
-                          android:textAlignment="center"
-                          android:textColor="@color/black"
-                          android:textSize="25dp"
-                          android:textStyle="bold"
-                          android:layout_height="wrap_content"/>
-
-            </LinearLayout>
-        </android.support.v7.widget.CardView>
-        <android.support.v7.widget.CardView
-
-                android:layout_height="0dp"
-                android:layout_width="0dp"
-                android:layout_columnWeight="1"
-                android:layout_marginBottom="16dp"
-                android:layout_marginLeft="16dp"
-                android:layout_marginRight="16dp"
-                android:layout_rowWeight="1"
-                app:cardElevation="8dp"
-                app:cardCornerRadius="8dp">
-
-            <LinearLayout
-                    android:gravity="center_horizontal|center_vertical"
-                    android:layout_margin="16dp"
-                    android:orientation="vertical"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content">
-
-                <ImageView
-
-                        android:src="@drawable/register"
-                        android:layout_gravity="center_horizontal"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"/>
-
-                <TextView android:layout_width="wrap_content"
-                          android:text="Oficinas"
+                          android:text="Corresponsal Bancarios"
                           android:textAlignment="center"
                           android:textColor="@color/black"
                           android:textSize="18sp"
@@ -234,11 +200,47 @@
 
                         android:src="@drawable/register"
                         android:layout_gravity="center_horizontal"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"/>
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"/>
 
                 <TextView android:layout_width="wrap_content"
-                          android:text="Oficinas"
+                          android:text="Otros"
+                          android:textAlignment="center"
+                          android:textColor="@color/black"
+                          android:textSize="18sp"
+                          android:textStyle="bold"
+                          android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+
+                android:layout_height="0dp"
+                android:layout_width="0dp"
+                android:layout_columnWeight="1"
+                android:layout_marginBottom="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_rowWeight="1"
+                app:cardElevation="8dp"
+                app:cardCornerRadius="8dp">
+
+            <LinearLayout
+                    android:gravity="center_horizontal|center_vertical"
+                    android:layout_margin="16dp"
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                <ImageView
+
+                        android:src="@drawable/register"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"/>
+
+                <TextView android:layout_width="wrap_content"
+                          android:text="Proximo servicios "
                           android:textAlignment="center"
                           android:textColor="@color/black"
                           android:textSize="18sp"
