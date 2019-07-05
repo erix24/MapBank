@@ -11,7 +11,10 @@
             android:supportsRtl="true"
             android:theme="@style/AppTheme"
             tools:ignore="GoogleAppIndexingWarning">
-
+        <activity android:name=".codemen.ListViewActivity">
+        </activity>
+        <activity android:name=".codemen.WebviewActivity">
+        </activity>
         <activity
                 android:name=".codemen.Main2Activity"
                 android:label="@string/title_activity_main2"

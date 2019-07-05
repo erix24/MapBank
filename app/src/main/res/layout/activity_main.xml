@@ -11,12 +11,11 @@
 
     <RelativeLayout android:layout_width="match_parent"
                     android:layout_weight="2"
-                    android:background="@drawable/lz"
+                    android:background="@drawable/map_home"
                     android:layout_height="0dp">
 
         <TextView android:layout_width="wrap_content"
                   android:id="@+id/textGrid"
-                  android:text="MAPBANK"
                   android:textSize="34dp"
                   android:layout_height="wrap_content"/>
     </RelativeLayout>
@@ -53,6 +52,7 @@
                 <ImageView
 
                         android:src="@drawable/mailbox"
+                        android:id="@+id/corresponsal"
                         android:layout_gravity="center_horizontal"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"/>
@@ -125,6 +125,7 @@
                 <ImageView
 
                         android:src="@drawable/warehouse"
+                        android:id="@+id/oficinas"
                         android:layout_gravity="center_horizontal"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"/>
@@ -169,7 +170,7 @@
                           android:text="Oficinas"
                           android:textAlignment="center"
                           android:textColor="@color/black"
-                          android:textSize="18sp"
+                          android:textSize="25dp"
                           android:textStyle="bold"
                           android:layout_height="wrap_content"/>
 

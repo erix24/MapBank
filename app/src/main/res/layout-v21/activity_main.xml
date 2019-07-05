@@ -87,7 +87,7 @@
                     android:layout_height="wrap_content">
 
                 <ImageView
-
+                         android:id="@+id/store"
                         android:src="@drawable/store"
                         android:layout_gravity="center_horizontal"
                         android:layout_width="match_parent"
