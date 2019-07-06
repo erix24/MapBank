@@ -54,8 +54,8 @@
                         android:src="@drawable/mailbox"
                         android:id="@+id/corresponsal"
                         android:layout_gravity="center_horizontal"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"/>
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"/>
 
                 <TextView android:layout_width="wrap_content"
                           android:text="Corresponsal"
@@ -89,9 +89,10 @@
                 <ImageView
 
                         android:src="@drawable/store"
+                        android:id="@+id/store"
                         android:layout_gravity="center_horizontal"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"/>
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"/>
 
                 <TextView android:layout_width="wrap_content"
                           android:text="Oficinas"
@@ -127,8 +128,8 @@
                         android:src="@drawable/warehouse"
                         android:id="@+id/oficinas"
                         android:layout_gravity="center_horizontal"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"/>
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"/>
 
                 <TextView android:layout_width="wrap_content"
                           android:text="Oficinas"
@@ -163,8 +164,8 @@
 
                         android:src="@drawable/register"
                         android:layout_gravity="center_horizontal"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"/>
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"/>
 
                 <TextView android:layout_width="wrap_content"
                           android:text="Oficinas"
@@ -199,8 +200,8 @@
 
                         android:src="@drawable/register"
                         android:layout_gravity="center_horizontal"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"/>
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"/>
 
                 <TextView android:layout_width="wrap_content"
                           android:text="Oficinas"
@@ -235,8 +236,8 @@
 
                         android:src="@drawable/register"
                         android:layout_gravity="center_horizontal"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"/>
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"/>
 
                 <TextView android:layout_width="wrap_content"
                           android:text="Oficinas"
