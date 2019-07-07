@@ -10,7 +10,7 @@
       "client_info": {
         "mobilesdk_app_id": "1:189720699491:android:d61f30690aa04062",
         "android_client_info": {
-          "package_name": "com.example.mapbank.codemen"
+          "package_name": "com.example.mapbank"
         }
       },
       "oauth_client": [
@@ -18,7 +18,7 @@
           "client_id": "189720699491-hhb7uvlpsc1gtgg3k1g35gl008lv7gbb.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "com.example.mapbank.codemen",
+            "package_name": "com.example.mapbank",
             "certificate_hash": "15edbe18556a8241b33614ccc8dab9f9ded1c7b7"
           }
         },
